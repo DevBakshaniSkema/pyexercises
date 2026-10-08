@@ -31,3 +31,32 @@ DELIVERABLE
 
 
 # Your code below
+# 1. In: two numbers typed by the user
+# 2. Process: the program turns both answers into numbers (float), then does +, -, *, /
+# 3. Out: the result of the four operations
+# 4. What happens when the second number is zero, and why:
+#    The program shows a message instead of the division result. I chose this
+#    because dividing by zero is impossible, and a message is clearer than a crash.
+#    The other three operations still work.
+
+# Your code below
+# ask for the two numbers
+number_1 = float(input("Enter the first number: "))
+number_2 = float(input("Enter the second number: "))
+
+# the three operations that always work
+print(f"{number_1} + {number_2} = {number_1 + number_2}")
+print(f"{number_1} - {number_2} = {number_1 - number_2}")
+print(f"{number_1} * {number_2} = {number_1 * number_2}")
+
+# division: check for zero first
+if number_2 == 0:
+    print("Division impossible: the second number is zero.")
+else:
+    print(f"{number_1} / {number_2} = {number_1 / number_2}")
+
+# CHECK IT YOURSELF
+# Test with 7 and 2: 
+# Why it is not 3: 
+# Test with 7 and 0:
+20

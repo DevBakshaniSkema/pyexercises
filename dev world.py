@@ -29,8 +29,4 @@ DELIVERABLE
 
 
 # Your code below
-name = input("What is your first name? ")
-age = int(input("How old are you? "))
-
-print(f"Hello {name}, you are {age} years old and next year you will be {age + 1}.")
-
+print("My name is dev")
