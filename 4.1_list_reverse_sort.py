@@ -24,7 +24,17 @@ CHECK IT YOURSELF
 DELIVERABLE
     This file, with your comments and your code.
 """
-
+# 1. In: nothing typed by the user, the list of 8 budgets from 4.0 is written in the code
+# 2. Process: the program makes four reordered versions without damaging the original,
+#    then shows the original at the end to prove it did not change
+# 3. Out: the list in four orders, a sorted copy, then the original list
+# 4. My four orders, and which ones modify the original:
+#    - sorted(budgets): increasing order, returns a NEW list, original not modified.
+#    - sorted(budgets, reverse=True): decreasing order, NEW list, original not modified.
+#    - budgets[::-1]: reversed order, slicing gives a NEW list, original not modified.
+#    - sorted(budgets, key=str): sorted as text, NEW list, original not modified.
+#    None of my four orders modifies the original. .sort() and .reverse() DO modify
+#
 # 1. In:
 # 2. Process:
 # 3. Out:

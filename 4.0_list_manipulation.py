@@ -33,3 +33,32 @@ DELIVERABLE
 
 
 # Your code below
+# 1. In: nothing typed by the user, the list is written directly in the code
+# 2. Process: the program builds a list of 8 monthly ad budgets, sorts it, and computes the total and the average
+# 3. Out: the whole list, the first item, the sorted list, the total and the average
+# 4. What my list is about, and what I computed from it:
+#    The list holds the advertising budget (in euros) of a marketing team for 8 months.
+#    I computed the total (how much was spent in all) and the average
+#    (useful to plan the budget of the next months).
+
+# Your code below
+# the list of 8 monthly budgets
+budgets = [1200, 800, 1500, 950, 2000, 700, 1800, 1100]
+
+print("Whole list:", budgets)
+print("Budget of the first month:", budgets[0])
+print("Sorted list:", sorted(budgets))
+
+# total and average
+total = sum(budgets)
+average = total / len(budgets)
+print("Total budget:", total)
+print("Average monthly budget:", average)
+
+# check by hand: sum of the first three items
+print("Sum of the first three items:", sum(budgets[:3]))
+
+# CHECK IT YOURSELF
+# By hand, first three items: 
+# What the program shows for them: 
+# Total and average check:

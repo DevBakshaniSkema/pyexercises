@@ -31,3 +31,19 @@ DELIVERABLE
 
 
 # Your code below
+sentence = input("Type a sentence: ")
+
+# remove spaces at both ends
+print(f"strip:   [{sentence.strip()}]")
+# make everything lowercase
+print(f"lower:   [{sentence.lower()}]")
+# capital letter on each word
+print(f"title:   [{sentence.title()}]")
+# replace spaces with underscores
+print(f"replace: [{sentence.replace(' ', '_')}]")
+
+# CHECK IT YOURSELF
+# strip: 
+# lower: 
+# title: 
+# replace:hello world
