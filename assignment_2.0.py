@@ -26,17 +26,14 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:User's name and age
-# 2. Process:concatenate two information that i got from the user 
-# 3. Out:the concatenated string
+# 1. In: you get user info
+# 2. Process: used input to get the input
+# 3. Out: printed user age 
 # 4. My two fields, and what I would do with them:
 
 
 # Your code below
-name = input("enter your name")
-age = input("enter your age")
+name= input("Write your name: ")
+age = int(input( " write your age: "))
 
-print("the user's name is:", name)
-print("the user's age is:", age)
-
-print("the user name is," + name + " and the user's age is", age)
+print ("your name is", name, "&" ,"your age is", age)
